@@ -6,4 +6,4 @@ const server = new http.Server();
 
 server.on('request', connection);
 
-server.listen(PORT);
+server.listen(PORT, () => console.log(`Server runs on ${PORT} port`);
